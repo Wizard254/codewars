@@ -1,5 +1,8 @@
 package kata
 
+// Adapted from https://www.codewars.com/kata/5813d19765d81c592200001a/train/go
+
+
 func DontGiveMeFive(start int, end int) int {
   if start < 0 && end < 0 {
     // Handle both start and end are negatives
